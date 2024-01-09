@@ -26,7 +26,7 @@ def fixture_products() -> dict:
 
 
 @pytest.fixture
-def fixture_orders() -> dict:
+def fixture_orders() -> list:
     """Fixture providing a list of Order objects for testing purposes.
 
      Returns:
